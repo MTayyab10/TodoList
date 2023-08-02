@@ -25,5 +25,5 @@ Please be aware of the following:
 
 - Some project settings and configurations may be missing.
 -   Some files like `settings.py, asgi.py, urls.py` are missing.
--  In  `urls.py` just need to add`path('', include('todo.urls'))` and in `settings.py` just need to add `tasks` in `INSTALLED_APPS`.  
+-  In  `urls.py` just need to add`path('', include('tasks.urls'))` and in `settings.py` just need to add `tasks` in `INSTALLED_APPS`.  
 
